@@ -4,7 +4,7 @@ public class SumSquares
 {
     public static int sumSquares(int start, int end) 
     {
-        if(end <= 0 || end < start)
+        if(end < start)
         {
             return 0;
         }
